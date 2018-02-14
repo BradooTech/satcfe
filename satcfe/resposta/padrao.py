@@ -57,10 +57,10 @@ class RespostaSAT(object):
 
     CAMPOS = (
             ('numeroSessao', int),
-            ('EEEEE', unicode),
-            ('mensagem', unicode),
-            ('cod', unicode),
-            ('mensagemSEFAZ', unicode),
+            ('EEEEE', str),
+            ('mensagem', str),
+            ('cod', str),
+            ('mensagemSEFAZ', str),
         )
     """Campos padrão esperados em uma resposta e a sua função de conversão para
     o tipo Python, a partir da resposta original (unicode).
