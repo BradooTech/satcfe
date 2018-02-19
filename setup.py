@@ -48,7 +48,7 @@ def read_version():
     return re.search(r"__version__ = '([^']+)'", content).group(1)
 
 
-long_description = read('README.rst')
+long_description = read('README.md')
 
 
 class PyTest(TestCommand):
